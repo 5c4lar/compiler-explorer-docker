@@ -1,0 +1,12 @@
+default:
+  compiler: clang
+  version: 19.1.0
+compilers:
+  compilers/c++/x86/gcc:
+    - version: 14.2.0
+    
+  compilers/c++/clang:
+    - version: 19.1.0
+      gcc_version: 14.2.0
+cache_dir: ./compilers
+port: 10240
